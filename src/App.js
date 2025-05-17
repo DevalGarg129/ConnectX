@@ -5,7 +5,7 @@ import { AuthProvider } from "./contexts/AuthContext";  // ✅ Corrected path
 import VideoMeetComponent from './pages/VideoMeet';
 import HomeComponent from './pages/home';
 import History from './pages/history';
-import Authentication from "./pages/Authentication.jsx";  // ✅ Fixed path
+import Authentication from "./pages/authentication.jsx";  // ✅ Fixed path
 
 function App() {
   return (
