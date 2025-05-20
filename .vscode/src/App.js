@@ -1,11 +1,11 @@
 import './App.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import LandingPage from './pages/landing';
-import { AuthProvider } from "./contexts/AuthContext";  // ✅ Corrected path
-import VideoMeetComponent from './pages/VideoMeet';
-import HomeComponent from './pages/home';
-import History from './pages/history';
-import Authentication from "./pages/authentication.jsx";  // ✅ Fixed path
+import LandingPage from './pages/landing.js';
+import { AuthProvider } from "./contexts/AuthContext.js";  // ✅ Corrected path
+import VideoMeetComponent from './pages/VideoMeet.js';
+import HomeComponent from './pages/home.js';
+import History from './pages/history.js';
+import Authentication from "./pages/Authentication.js";  // ✅ Fixed path
 
 function App() {
   return (
